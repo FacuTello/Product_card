@@ -52,7 +52,6 @@ h1{
 #price{
     display: flex;
     align-items: center;
-    
 }
 
 #actual_price{
@@ -80,12 +79,18 @@ button{
     font-family: 'Monserrat', sans-serif;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
+
+    body{
+        margin: 20px;
+    }
 
     img{
         content: url(./images/image-product-mobile.jpg);
-        height: 200px;
-
+        height: 250px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
     }
 
     main{
@@ -93,5 +98,11 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    #container{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
     }
 }
