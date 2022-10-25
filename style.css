@@ -79,7 +79,7 @@ button{
     font-family: 'Monserrat', sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
 
     body{
         margin: 20px;
@@ -103,6 +103,5 @@ button{
     #container{
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
-        
     }
 }
