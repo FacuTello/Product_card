@@ -84,6 +84,8 @@ button{
 
     img{
         content: url(./images/image-product-mobile.jpg);
+        height: 200px;
+
     }
 
     main{
