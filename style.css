@@ -1,18 +1,22 @@
 body{
     background-color: hsl(30, 38%, 92%);
-    margin-top: 100px;
+    margin: 100px;
+    display: grid;
+    place-content: center;
+        min-height: 100vh;
+
 }
 
 img{
-    width: 18.1rem;
-    height: 25rem;
+    width: 290px;
+    height: 400px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-#container{
-    width: 18.1rem;
-    height: 25rem;
+.container{
+    width: 290px;
+    height: 400px;
     background-color: hsl(0, 0%, 100%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -23,7 +27,7 @@ main{
     place-content: center;
 }
 
-h1{
+.perfume{
     font-family: 'Monserrat', sans-serif;
     font-size: 0.7rem;
     text-transform: uppercase;
@@ -33,7 +37,7 @@ h1{
     
 }
 
-#title{
+.title{
     font-size: 1.7rem;
     font-family: 'Fraunces', serif;
     font-weight: 900;
@@ -41,7 +45,7 @@ h1{
     margin: 25px 100px 20px 25px;
 }
 
-#description{
+.description{
     font-size: 0.8rem;
     font-family: 'Monserrat', sans-serif;
     color: hsl(228, 12%, 48%);
@@ -49,19 +53,19 @@ h1{
     line-height: 1.2rem;
 }
 
-#price{
+.price{
     display: flex;
     align-items: center;
 }
 
-#actual_price{
+.actual_price{
     color: hsl(158, 36%, 37%);
     font-size: 1.7rem;
     font-family: 'Fraunces', serif;
     margin: 10px 20px 25px 25px;
 }
 
-#old_price{
+del{
     font-size: 0.7rem;
     text-decoration: line-through;
     color: hsl(158, 36%, 37%);
@@ -74,12 +78,13 @@ button{
     width: 14rem;
     height: 2.5rem;
     border-radius: 5px;
-    margin-left: 1.8rem;
+    margin-left: 25px;
     border: 0rem;
     font-family: 'Monserrat', sans-serif;
+    cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
 
     body{
         margin: 20px;
